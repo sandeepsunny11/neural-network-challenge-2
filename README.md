@@ -7,11 +7,10 @@ The model uses a dataset with 10 features, such as age, years at the company, jo
 2. Department: The most suitable department for the employee, like Sales, IT, or HR.
 
 # Model Details:
-
-# Preprocessing: 
+ Preprocessing: 
 Categorical data, like department and gender, is converted into numerical values. For example, departments are turned into binary columns, and gender is represented as 0 (male) or 1 (female).
 
-# Model Structure:
+Model Structure:
 1. For Attrition: The Sigmoid activation function is used with Binary Cross-Entropy as the loss function.
 2. For Department: Softmax activation is used with Categorical Cross-Entropy loss.
 
